@@ -54,6 +54,7 @@
   align-items: center;
   margin-bottom: 6px;
   padding: 5px;
+  transition: ease 100ms;
 }
 
 .sidebar-row-image {
