@@ -166,7 +166,6 @@ img {
 
 .content-sidebar {
   display: grid;
-  grid-template-rows: 50% 50%;
 }
 
 .title {
@@ -178,7 +177,7 @@ img {
 
 .project-blocks {
   display: grid;
-  grid-template-columns: 46% 46%;
+  grid-template-columns: 47% 47%;
   gap: 20px;
   margin-top: 20px;
   margin-left: 15px;
@@ -193,8 +192,6 @@ img {
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .block-title {
@@ -207,6 +204,8 @@ img {
 .block-information {
   margin-top: 8px;
   margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .block-icons {
@@ -217,4 +216,59 @@ img {
   gap: 5px;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+.content-sidebar-announce {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.content-sidebar-title {
+  margin-bottom: 5px;
+}
+
+.content-sidebar-block {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.content-sidebar-info {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.content-sidebar-text {
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.bord {
+  border-bottom: 1px solid #cbd5e1;
+}
+.content-sidebar-trend-title {
+  margin-bottom: 12px;
+}
+
+.trend-block {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.trend-user {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.profile-top-git {
+  margin-right: 10px;
+  color: black;
 }
